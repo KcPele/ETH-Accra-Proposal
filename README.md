@@ -1,81 +1,39 @@
-# 🏗 Scaffold-ETH 2
+# Grant Proposal for ETHAccra 2024 Participation
 
-<h4 align="center">
-  <a href="https://docs.scaffoldeth.io">Documentation</a> |
-  <a href="https://scaffoldeth.io">Website</a>
-</h4>
+## Event Information
+**Event:** ETHAccra 2024  
+**Dates:** August 29th - August 31st, 2024  
+**Location:** University of Ghana, Accra  
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+## Proposal Overview
+ETHAccra 2024 is set to be a transformative event in the blockchain space, bringing together innovators, developers, and enthusiasts from around the globe. I am eager to contribute to this dynamic event by delivering a compelling presentation on Scaffold-Eth, an invaluable tool for Ethereum development, and promoting the vibrant community of BuidlGuidl. Additionally, I will leverage my expertise to mentor and manage the hackathon, ensuring an enriching and impactful experience for all participants.
 
-⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
+### Empowering Developers with Scaffold-Eth
+- **Comprehensive Introduction:** Scaffold-Eth is a game-changer for Ethereum developers, providing a robust framework for building decentralized applications (dApps) with ease. My presentation will break down the complexities and showcase its unique features, making it accessible to both novice and experienced developers.
+- **Real-World Applications:** I will share success stories and practical applications of Scaffold-Eth, demonstrating its versatility and power. By highlighting real-world projects, I aim to inspire attendees to explore its potential in their own work.
+- **Live Demonstration:** To ensure a hands-on learning experience, I will conduct a live demonstration, guiding the audience through the setup and development process. This interactive session will provide valuable insights and practical skills that attendees can immediately apply.
 
-- ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
-- 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
-- 🧱 [**Components**](https://docs.scaffoldeth.io/components/): Collection of common web3 components to quickly build your frontend.
-- 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
+### Building a Collaborative Community with BuidlGuidl
+- **Vision and Mission:** BuidlGuidl is more than just a community; it's a movement dedicated to nurturing and empowering Ethereum developers. I will delve into its mission and vision, emphasizing the collaborative spirit and the wealth of resources available.
+- **Opportunities for Growth:** By joining BuidlGuidl, developers gain access to mentorship, networking opportunities, and a supportive environment that fosters innovation. I will highlight how participation in this community can accelerate their growth and career development.
+- **Call to Action:** Encouraging attendees to join BuidlGuidl, I will outline the steps to get involved and contribute to the community. This call to action aims to expand the community and enhance its collective strength.
 
-![Debug Contracts tab](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/b237af0c-5027-4849-a5c1-2e31495cccb1)
+### Hackathon Mentorship and Management
+- **Expert Guidance:** As a mentor, I will provide personalized guidance and support to hackathon participants, helping them navigate challenges and optimize their projects. My goal is to create an inclusive and collaborative environment where every participant can thrive.
+- **Workshops and Coding Sessions:** I will conduct workshops and coding sessions tailored to the needs of the participants, ensuring they have the tools and knowledge to succeed. These sessions will cover key aspects of dApp development, from ideation to deployment.
+- **Judging and Feedback:** Serving as a judge, I will provide constructive feedback on hackathon submissions, recognizing innovation and excellence. My experience in evaluating projects will ensure a fair and insightful judging process.
 
-## Requirements
+## Why Support My Participation
+- **Expertise and Experience:**
+  - My background in Web3 development, coupled with my teaching experience, positions me as a knowledgeable and effective mentor. I have built several projects using React and Solidity, and I am well-versed in the intricacies of Ethereum development.
+  - As a mentor for Web3Ladies, I have successfully guided numerous developers, helping them overcome challenges and achieve their goals. My proven track record in teaching and mentorship makes me a valuable asset to ETHAccra 2024.
 
-Before you begin, you need to install the following tools:
+- **Community Impact:**
+  - By attending ETHAccra, I will facilitate the dissemination of cutting-edge knowledge and best practices, empowering developers to create impactful solutions. My presentations and mentorship will inspire and equip attendees to push the boundaries of what's possible in blockchain technology.
+  - The connections and insights gained from ETHAccra will be shared with my broader network, including the Web3Ladies community and the Federal University of Technology Minna. This ripple effect will amplify the impact of my participation, benefiting a larger audience.
 
-- [Node (>= v18.17)](https://nodejs.org/en/download/)
-- Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
-- [Git](https://git-scm.com/downloads)
 
-## Quickstart
+## Conclusion
+ETHAccra 2024 is not just an event; it's a catalyst for innovation and collaboration in the blockchain space. My participation will bring unique value through insightful presentations, hands-on workshops, and dedicated mentorship. I am committed to making a meaningful impact and fostering a spirit of community and learning. 
 
-To get started with Scaffold-ETH 2, follow the steps below:
-
-1. Clone this repo & install dependencies
-
-```
-git clone https://github.com/scaffold-eth/scaffold-eth-2.git
-cd scaffold-eth-2
-yarn install
-```
-
-2. Run a local network in the first terminal:
-
-```
-yarn chain
-```
-
-This command starts a local Ethereum network using Hardhat. The network runs on your local machine and can be used for testing and development. You can customize the network configuration in `hardhat.config.ts`.
-
-3. On a second terminal, deploy the test contract:
-
-```
-yarn deploy
-```
-
-This command deploys a test smart contract to the local network. The contract is located in `packages/hardhat/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network. You can also customize the deploy script.
-
-4. On a third terminal, start your NextJS app:
-
-```
-yarn start
-```
-
-Visit your app on: `http://localhost:3000`. You can interact with your smart contract using the `Debug Contracts` page. You can tweak the app config in `packages/nextjs/scaffold.config.ts`.
-
-**What's next**:
-
-- Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
-- Edit your frontend homepage at `packages/nextjs/app/page.tsx`. For guidance on [routing](https://nextjs.org/docs/app/building-your-application/routing/defining-routes) and configuring [pages/layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) checkout the Next.js documentation.
-- Edit your deployment scripts in `packages/hardhat/deploy`
-- Edit your smart contract test in: `packages/hardhat/test`. To run test use `yarn hardhat:test`
-
-## Documentation
-
-Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building with Scaffold-ETH 2.
-
-To know more about its features, check out our [website](https://scaffoldeth.io).
-
-## Contributing to Scaffold-ETH 2
-
-We welcome contributions to Scaffold-ETH 2!
-
-Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
+Thank you for considering my application.
